@@ -3,6 +3,6 @@ package shapes;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	Shape s1 = new Circle(5.5, "RED", false);
     }
 }

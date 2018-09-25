@@ -51,9 +51,9 @@ public class Rectangle extends Shape {
     @Override
     public String toString() {
         if (filled){
-            return this.color + " rectangle with a width of " + this.width + " and a length of " + this.length;
+            return this.color + " filled rectangle with a width of " + this.width + " and a length of " + this.length;
         } else {
-            return "Not filled rectangle with a width of " + this.width + " and a length of " + this.length;
+            return this.color + ", not filled rectangle with a width of " + this.width + " and a length of " + this.length;
         }
     }
 }

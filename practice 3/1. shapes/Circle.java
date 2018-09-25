@@ -39,9 +39,9 @@ public class Circle extends Shape{
     @Override
     public String toString() {
         if (filled){
-            return this.color + " circle with a radius of " + this.radius;
+            return this.color + " filled circle with a radius of " + this.radius;
         } else {
-            return "Circle with a radius of " + this.radius + " which isn't filled";
+            return this.color + " circle with a radius of " + this.radius + " which isn't filled";
         }
     }
 }
