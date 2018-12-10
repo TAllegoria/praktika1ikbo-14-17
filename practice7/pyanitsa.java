@@ -53,7 +53,7 @@ public class pyanitsa {
             }
             step++;
         } while (step <= 106);
-        if (step == 105) {
+        if (step == 106) {
             System.out.println("botva");
         }
     }
